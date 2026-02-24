@@ -1,0 +1,32 @@
+const carro = {
+  cilindro: 6,
+  placa: "RXO-3545",
+};
+
+describe('carro', () => {
+  test('carro tem 6 cilindro', () => {
+    expect(carro.cilindro).toBe(6);
+  });
+
+  test('has a sophisticated name', () => {
+    expect(carro.placa).toBe('RXO-3545');
+  });
+});
+
+const carro1 = {
+  nome: 'civic',
+  ano: 2025,
+};
+const carro2 = {
+  nome: 'civic',
+  ano: 2025,
+};
+
+describe('carros', () => {
+  test('os carros sao iguais', () => {
+    expect(carro1).toEqual(carro2);
+  });
+  test('o modelo não é igual', () => {
+    expect(carro1.nome).not.toEqual(carro2.nome);
+  });
+});
