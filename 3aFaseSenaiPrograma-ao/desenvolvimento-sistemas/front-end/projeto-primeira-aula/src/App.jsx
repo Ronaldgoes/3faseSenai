@@ -1,5 +1,7 @@
 
 import './App.css'
+import Body from './layouts/Body/Body'
+import Footer from './layouts/footer/footer'
 import Header from './layouts/Header'
 
 function App() {
@@ -10,7 +12,11 @@ function App() {
 
   return (
     <>
-     <Header />
+     <Header title="Nome do site" />
+
+     <Body/>
+
+     <Footer/>
     </>
   )
 }
