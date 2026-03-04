@@ -1,4 +1,5 @@
 import Card from "../../components/Card/Card"
+import CardApi from "../../components/Card/CardApi"
 import styles from "./Body.module.css"
 
 
@@ -27,6 +28,9 @@ const Body = () => {
         ))}
 
     </div>
+
+    <h3>Usuarios Vindos da API</h3>
+    <CardApi/>
 
 </main>
 

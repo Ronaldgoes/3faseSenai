@@ -1,3 +1,10 @@
+.cardContainerApi{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+
 .card {
     background-color: #fff;
     border: 1px solid #ddd;
@@ -5,4 +12,11 @@
     padding: 16px;
     width: 200px;
     box-shadow: 2px 2px 6px rgba(0, 0, 0, 0, 0.1);
+}
+
+.input{
+    width: 500px;
+    padding: 10px;
+    margin-bottom: 30px;
+    border: none;
 }
